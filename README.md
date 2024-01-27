@@ -8,14 +8,14 @@ and it's already a little confusing to have an empty
 WORKSPACE.bazel. There's some other way to redirect, but I'll have to
 find it in the manual again. I'll update this once I do.
 
-I'll start with content from the Bazel Tutorial: Build a C++ Project
+I'll start with content from the [Bazel Tutorial: Build a C++ Project]
 (https://bazel.build/start/cpp) and probably even split the stages of
 that tutorial into branches to keep this main branch/example as simple
 as possible.
 
 ## Running
 
-This already works like this. Install bazelisk and start building C++!
+This already works like this. [Install bazelisk](https://bazel.build/install/bazelisk) and start building C++!
 
 ```shell
 $ bazel build //main:hello-world
